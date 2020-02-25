@@ -1,0 +1,23 @@
+/*
+** ** ============
+** ** * MAIN SASS FILE *
+** ** ============
+*/
+/*
+Theme Name: Mingle
+Theme Author Name: SadaqatDahani
+Author URI: https://www.sadaqatdahani786.github.io
+*/
+@import 'abstract/_variables.scss';
+
+@import 'base/typography.scss';
+@import 'base/utility.scss';
+@import 'base/base.scss';
+
+@import 'layouts/header.scss';
+@import 'layouts/footer.scss';
+
+@import 'pages/front-page.scss';
+
+
+
