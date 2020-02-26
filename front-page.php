@@ -12,33 +12,33 @@
                 
                 <?php $statistics = bbp_get_statistics();?>                
                 
-                <div class="members_count p-20 bg-white flex justify-between">                                        
+                <div class="members_count p-20 bg-white flex-grow flex justify-between">                                        
                     <div class="p-10 rounded-b-full flex flex-col justify-center bg-secondary">
                         <i class="text-6xl text-white fa fa-user"></i>
                     </div>                    
                     <h2 class="text-5xl flex flex-col ml-40"> 
-                        Members 
-                        <span><?php echo $statistics['user_count'];?>+</span>
+                        <span class="font-bold uppercase">Members</span>
+                        <span class="text-6xl text-gray-200"><?php echo $statistics['user_count'];?>+</span>
                     </h2>
                 </div>                                
                 
-                <div class="replies_count p-20 bg-white flex justify-between">                                        
+                <div class="replies_count p-20 bg-white flex-grow mx-2 flex justify-between">
                     <div class="p-10 rounded-b-full flex flex-col justify-center bg-secondary">
                         <i class="text-6xl text-white fa fa-reply"></i>
                     </div>                    
                     <h2 class="text-5xl flex flex-col ml-40"> 
-                        Replies 
-                        <span><?php echo $statistics['reply_count'];?></span>
+                        <span class="font-bold uppercase">Replies</span>
+                        <span class="text-6xl text-gray-200"><?php echo $statistics['reply_count'];?></span>
                     </h2>
                 </div>                                
                 
-                <div class="topics_count p-20 bg-white flex justify-between">
+                <div class="topics_count p-20 bg-white flex-grow flex justify-between">
                     <div class="p-10 rounded-b-full flex flex-col justify-center bg-secondary">
                         <i class="text-6xl text-white fa fa-thumb-tack"></i>
                     </div>
                     <h2 class="text-5xl flex flex-col ml-40"> 
-                        Topics 
-                        <span><?php echo $statistics['topic_count'];?></span>
+                        <span class="font-bold uppercase">Topics</span>
+                        <span class="text-6xl text-gray-200"><?php echo $statistics['topic_count'];?></span>
                     </h2>
                 </div>
             </div>

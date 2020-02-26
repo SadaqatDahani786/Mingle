@@ -27,18 +27,24 @@
 /*
 ** LINKS
 */
-// a{
-//     &:link,
-//     &:visited{
-//         color: $colorBlack;
-//         font-size: 1.5rem;
-//         text-decoration: none;
-//         transition: all .2s ease;
-//     }
-//     &:hover,
-//     &:active{
-//         color: $colorThemeSecondary;               
-//         text-decoration: underline; 
-//         text-decoration-color: $colorThemePrimary;        
-//     }
+#bbpress-forums a{
+    &:link,
+    &:visited{
+        color: $colorBlack;        
+        text-decoration: none;
+        transition: all .2s ease;
+    }
+    &:hover,
+    &:active{
+        color: $colorThemeSecondary;               
+        text-decoration: underline; 
+        text-decoration-color: $colorThemePrimary;        
+    }    
+}
+// .menu-item a{
+//     color: $colorWhite;
+// }
+// .menu-item a:hover{
+//     color: $colorGray;
+//     text-decoration: none;    
 // }
