@@ -18,5 +18,12 @@ html{
     font-family: 'Roboto', sans-serif;        
 }
 body{
-    background-color: $colorThemePrimary;
+    background-color: $colorWhite;
+}
+#Hero{
+    // clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 94.60% 94.79%, 5.17% 94.60%, 0px 100%)
+}
+#Main{
+    position: relative;
+    z-index: 10;
 }

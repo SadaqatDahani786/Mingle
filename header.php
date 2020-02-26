@@ -11,9 +11,19 @@
     <title><?php bloginfo('title'); ?></title>
 </head>    
 <body>
-    <header class="header">
-        <div class="header__inner">
-            <a href=""><h1 class><?php bloginfo('title');?></h1></a>            
+    <header class="header bg-primary border-b-2 border-gray-100">
+        <div class="container flex">
+            <div class="logo">
+                <a href=""><h1 class="font-bold text-6xl text-white"><?php bloginfo('title');?></h1></a>            
+            </div>
+            <nav class="nav flex-1 pl-64 ml-auto">                
+                <?php wp_nav_menu(
+                    array(
+                        'theme_location'=>'header_primary',
+                        'menu_class'=>'flex justify-evenly py-8 text-4xl text-white'
+                    ));?>                
+            </nav>
         </div>        
-    </header>    
-    <main class="container">
+    </header>       
+    <main class="">
+

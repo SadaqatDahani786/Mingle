@@ -8,37 +8,37 @@
 /*
 ** HEADINGS
 */
-h1{
-    font-size: 6rem;
-    font-weight: 300;
-    line-height: 5.5rem;
-}
+// h1{
+//     font-size: 6rem;
+//     font-weight: 300;
+//     line-height: 5.5rem;
+// }
 
 
 /*
 ** PARAGRAPHS
 */
-p{
-    font-size: 1.6rem;
-    color: $colorGrayDark;
-}
+// p{
+//     font-size: 1.6rem;
+//     color: $colorGrayDark;
+// }
 
 
 /*
 ** LINKS
 */
-a{
-    &:link,
-    &:visited{
-        color: $colorBlack;
-        font-size: 1.5rem;
-        text-decoration: none;
-        transition: all .2s ease;
-    }
-    &:hover,
-    &:active{
-        color: $colorThemeSecondary;               
-        text-decoration: underline; 
-        text-decoration-color: $colorThemePrimary;        
-    }
-}
+// a{
+//     &:link,
+//     &:visited{
+//         color: $colorBlack;
+//         font-size: 1.5rem;
+//         text-decoration: none;
+//         transition: all .2s ease;
+//     }
+//     &:hover,
+//     &:active{
+//         color: $colorThemeSecondary;               
+//         text-decoration: underline; 
+//         text-decoration-color: $colorThemePrimary;        
+//     }
+// }
