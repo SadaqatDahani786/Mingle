@@ -25,7 +25,8 @@
 */
 .forum-thumbnail{    
      .wp-post-image{
-         width: 8rem !important;
+          padding: 2rem;
+          width: 8rem !important;
      }
  }
 
@@ -58,15 +59,15 @@
 ** ** * Freshness Links
 ** ** 
 */
-li.bbp-forum-freshness{
-     width: 25% !important;
-}
- .type-forum{     
-     .bbp-forum-freshness{            
+.type-forum,
+.type-topic{          
+     .bbp-forum-freshness,
+     .bbp-topic-freshness{            
           position: relative;      
           padding: 20px 0;
           margin: 0 auto;
           display: flex;     
+          width: 25% !important;
           flex-direction: column-reverse;                 
           > a{           
                font-size: 2rem !important;
@@ -82,9 +83,12 @@ li.bbp-forum-freshness{
                     position: absolute;
                     top: 7px;                    
                     right: 0;
+                    padding: 1rem;
                     border-radius: 50%;                    
                     max-width: 80px !important;
                     max-height: 80px !important;
+                    width: 80px;
+                    height: 80px;
                }
           }
           .bbp-author-link{
@@ -92,4 +96,4 @@ li.bbp-forum-freshness{
                flex-direction: column;
           }
      }
- }
+}
