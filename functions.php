@@ -53,7 +53,16 @@ function wpdocs_theme_slug_widgets_init() {
         'after_widget'  => '</li>',
         'before_title'  => '<h2 class="widgettitle">',
         'after_title'   => '</h2>',
-    ) );
+    ));
+    register_sidebar(array(
+        'name'          => __( 'Footer Widgets', 'mingle' ),
+        'id'            => 'footer-widgets',
+        'description'   => __( 'Widgets in this area will be shown in footer.', 'textdomain' ),
+        'before_widget' => '<div class="footer-widget bg-white shadow-2xl shadow rounded" id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2 class="bg-gray-100 text-gray-200 px-20 py-5 text-5xl">',
+        'after_title'   => '</h2>',
+    ));
  }
  add_action( 'widgets_init', 'wpdocs_theme_slug_widgets_init' );
 

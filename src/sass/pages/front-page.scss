@@ -5,10 +5,10 @@
 */
 
 .register_now{
-    clip-path: polygon(0px 0px, 100% 0px, 99.84% 102.11%, 171px 626px, 114px 570px, 0px 92.52%);    
+    clip-path: polygon(0px 0px, 80% 0, 85% 5%, 100% 5%, 100% 100%, 20% 100%, 15% 95%, 0 95%);    
     background-image: linear-gradient(
         to right bottom,
-        $colorThemePrimary,
+        $colorWhite,
         $colorThemeSecondary
     );
 }

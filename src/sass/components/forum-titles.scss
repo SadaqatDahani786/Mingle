@@ -9,6 +9,15 @@
 
 /*
 ** **
+** ** * Forum Table Footer
+** ** 
+*/
+.bbp-footer{
+    display: none;
+}
+
+/*
+** **
 ** ** * Forum Table Titles
 ** ** 
 */
@@ -26,4 +35,8 @@
 .bbp-pagination{
     font-size: 1.6rem !important;
     padding-left: 2.5rem;
+    background-color: $colorThemePrimary;
+    color: $colorWhite;
+    padding: 2rem 2.5rem;  
+    margin-bottom: 0;  
 }

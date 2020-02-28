@@ -52,6 +52,11 @@
      }
  }
 
+ #bbpress-forums{
+     ul{
+          margin-bottom: 0 !important; 
+     }
+ }
 
 
 /*
@@ -60,7 +65,7 @@
 ** ** 
 */
 .type-forum,
-.type-topic{          
+.type-topic{                        
      .bbp-forum-freshness,
      .bbp-topic-freshness{            
           position: relative;      

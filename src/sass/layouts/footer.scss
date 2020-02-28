@@ -4,5 +4,19 @@
 ** ** ============
 */
 .footer{
-
+    &__menu{        
+        ul{
+            display: flex;
+            padding: 1rem 0;
+            justify-content: center; 
+            flex-wrap: wrap;           
+            li{
+                min-width: 10rem;                
+                background-color: $colorGray;
+                a{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
 }
